@@ -20,6 +20,8 @@ app.use(bodyParser.urlencoded({
 
 app.use(bodyParser.json());
 
+
+
 app.listen(app.get('port'), ()=>{
     console.log('listen on port', app.get('port'));
 });
